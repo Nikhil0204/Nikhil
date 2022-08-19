@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SignUp Page</title>
+		<style>
+			body {
+  background-image: url("pic2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.SignUpForm{
+	width: auto;
+	height: auto;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+	opacity: 80%;
+	border-radius: 10px;
+}
+.SignUpForm input[type="Email"] ,input[type="password"]
+{
+	border: none;
+	width: auto;
+	height:50px;
+	margin-top: -15px;
+	margin-left: 15%;
+	border-bottom: 1px solid lightgrey;
+	background: transparent;
+	outline: none;
+	color: white;
+}
+label{
+	
+margin-bottom: 10px;
+margin-left: 15%;
+font-family: sans-serif ;
+
+}
+            
+			
+			a:hover{
+				background-color: rgb(245, 241, 241);
+				border-radius: 6px;
+			}
+			
+            * {box-sizing: border-box;}
+/*
+            input {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 10px 22px 10px;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+            }
+*/
+
+            hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+            }
+
+            button {
+            background-color: #04AA6D;
+            border-radius: 2%;
+            color: white;
+            padding: 10px 10px;
+            width: 30px;
+            margin: 2px 2px;
+            border: none;
+            opacity: 0.9;
+            }
+
+            button:hover {
+            opacity:1;
+            }
+.navbar {
+  overflow: hidden;
+  background-color:black ;
+  opacity: 70%;
+  margin-top: -0.5%;
+  margin-left: -0.5%;
+  margin-right: -0.9%; 
+  text-align: center;
+  width: 100%;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:Bradley Hand ITC;
+}
+
+            .cancelbtn {
+           
+            background-color: #f44336;
+            }
+
+            .cancelbtn {
+            float:left;
+            width: 48%;
+            }
+            .signupbtn {
+            float:right;
+            width: 48%;
+            }
+            .SignUpForm {
+            padding: 16px;
+            margin-bottom: 30px;
+            }
+            b{
+            font-family:Bradley Hand ITC ;
+            }
+            
+		</style>
+	</head>
+	<body>
+	 <div class="navbar">
+         
+            <div class="dropdown">
+              <div class="dropdown-content">
+                <a href="homepage.html">Home</a>
+                <a href="loginpage.html">Login</a>
+                <a href="#home">Sign Up</a>
+                
+                
+              </div>
+            </div> 
+            <a href="demopage.html">Demo</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+          </div>
+	<form style="border:1px solid #ccc">
+        <div class="SignUpForm">
+          <h2 style="text-align:center ;font-family: Bradley Hand ITC;">Sign Up</h2>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <h3>Username</h3>
+			<input type="email" name="" placeholder="Enter Username">
+			<h3>Password</h3>
+			<input type="password" name="" placeholder="Enter Password"><br>
+			<h3>Repeat Password</h3>
+			<input type="password" name="" placeholder="Enter Password"><br>
+			
+      
+         
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="buttons">
+          	<button type="button" class="cancelbtn">Cancel</button>
+          	<a href="homepage.html"><button type="button" class="signupbtn">Sign Up</button></a>
+            
+            
+          </div>
+        </div>
+      </form>
+		
+	
+
+	</body>
+	</html>

@@ -1,0 +1,13 @@
+h1{
+		border: 10px solid black;
+		padding: 30px;
+	}
+	p{
+		font-size:30px;
+	}
+body {
+  background-image: url("pic4.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
